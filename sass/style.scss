@@ -48,6 +48,7 @@ nav {
 
 .nav-toggle {
   display: none;
+
   &:checked ~ nav {
     transform: scale(1, 1);
   }
@@ -65,6 +66,9 @@ nav {
   height: 100%;
   display: flex;
   align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
   span, span::before, span::after {
     display: block;
     background: white;

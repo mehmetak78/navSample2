@@ -85,6 +85,9 @@ nav a:hover {
   display: flex;
   align-items: center;
 }
+.nav-toggle-label:hover {
+  cursor: pointer;
+}
 .nav-toggle-label span, .nav-toggle-label span::before, .nav-toggle-label span::after {
   display: block;
   background: white;
